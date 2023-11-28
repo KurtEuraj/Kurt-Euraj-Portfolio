@@ -13,5 +13,4 @@ Welcome to my portfolio website! This site outlines my skills, technologies used
 - React
 - HTML
 - CSS
-- JavaScript# Portfolio
-# Portfolio
+- JavaScript
