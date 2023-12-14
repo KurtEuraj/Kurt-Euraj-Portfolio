@@ -8,15 +8,15 @@ function LogoSlider() {
             <div className="w-[200%] flex items-center h-[10rem] justify-around absolute left-0 animate">
                 {sliderLogos.map((i) => {
                 return (
-                    <div key={i.name} className="flex justify-center items-center w-[20rem] h-[5rem] grayscale">
-                    <img className="h-[100%]" src={i.img} />
+                    <div key={i.name} className="flex justify-center items-center w-[20rem] h-[5rem] grayscale gap-4 sm:gap-0">
+                    <img className="h-[2rem] xs:h-[2.5rem] ss:h-[3rem] sm:h-[4rem] md:h-[100%]" src={i.img} />
                     </div>
                 );
                 })}
                 {sliderLogos.map((i) => {
                 return (
-                    <div key={i.name} className="flex justify-center items-center w-[20rem] h-[5rem] grayscale">
-                    <img className="h-[100%]" src={i.img} />
+                    <div key={i.name} className="flex justify-center items-center w-[20rem] h-[5rem] grayscale gap-4 sm:gap-0">
+                    <img className="h-[2rem] xs:h-[2.5rem] ss:h-[3rem] sm:h-[4rem] md:h-[100%]" src={i.img} />
                     </div>
                 );
                 })}

@@ -20,8 +20,6 @@ function App() {
       <div className="sm:px-16 px-6 flex justify-center items-start" >
         <div className="xl:max-w-[1280px] w-full" >
           <Projects/>
-          {/* <Technologies/> */}
-          {/* <Skills/> */}
           <LogoSlider/>
           <About/>
           <Footer/>
