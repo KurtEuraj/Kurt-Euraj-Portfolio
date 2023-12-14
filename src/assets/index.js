@@ -10,6 +10,8 @@ import jsIcon from "./jsIcon.svg"
 import FC_thumbnail from "./FC_Thumbnail.png"
 import reactIcon from "./react.svg"
 import NG_thumbnail from "./next_golf_thumbnail.png"
+import tailwind from "./tailwind.svg"
+import node from "./nodejs.svg"
 
 export {
     github_logo,
@@ -23,5 +25,7 @@ export {
     jsIcon,
     FC_thumbnail,
     reactIcon,
-    NG_thumbnail
+    NG_thumbnail,
+    tailwind,
+    node
 }

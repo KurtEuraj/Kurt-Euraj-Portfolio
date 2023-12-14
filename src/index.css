@@ -57,3 +57,33 @@
 .bg-gradient {
     background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
 }
+
+@keyframes scroll {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  
+  .animate {
+    animation: scroll 25s linear infinite;
+  }
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: 0em;
+}
+
+body {
+  scrollbar-color: #888 transparent;
+}

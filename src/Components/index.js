@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Technologies from "./Technologies";
+import LogoSlider from "./LogoSlider";
 
 export {
     About,
@@ -13,5 +14,6 @@ export {
     Navbar,
     Projects,
     Skills,
-    Technologies
+    Technologies,
+    LogoSlider
 }

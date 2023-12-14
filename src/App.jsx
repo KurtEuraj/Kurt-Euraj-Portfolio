@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Hero, Projects, Technologies, Skills, About, Footer} from "./Components"
+import {Navbar, Hero, Projects, Technologies, Skills, About, Footer, LogoSlider} from "./Components"
 
 function App() {
   return (
@@ -20,8 +20,9 @@ function App() {
       <div className="sm:px-16 px-6 flex justify-center items-start" >
         <div className="xl:max-w-[1280px] w-full" >
           <Projects/>
-          <Technologies/>
-          <Skills/>
+          {/* <Technologies/> */}
+          {/* <Skills/> */}
+          <LogoSlider/>
           <About/>
           <Footer/>
         </div>

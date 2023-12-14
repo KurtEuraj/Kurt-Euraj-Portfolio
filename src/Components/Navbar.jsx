@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { navLinks, navExternalLinks } from '../constants'
 import { menu, close } from '../assets'
+import {Link, animateScroll as scroll} from "react-scroll";
 
 function Nabvar() {
   const [toggleNav, setToggleNav] = useState(false);
@@ -19,7 +20,16 @@ function Nabvar() {
       </div>
       <div className="hidden sm:flex justify-center items-center gap-[70px] lg:gap-[98px]" >
         {navLinks.map((navLink, index) => (
-          <a className="text-[20px] text-white font-medium" key={navLink.id} href={`#${navLink.id}`} >{navLink.title}</a>
+          // <a className="text-[20px] text-white font-medium" key={navLink.id} href={`#${navLink.id}`} >{navLink.title}</a>
+          <Link 
+          key={navLink.id} 
+          className="text-[20px] text-white font-medium" 
+          to={navLink.id} 
+          spy={true}
+          smooth={true}
+          duration={750}>
+          {navLink.title}
+          </Link>
         ))}
       </div>
       <div className="hidden sm:flex justify-center items-center gap-[29px]" >
