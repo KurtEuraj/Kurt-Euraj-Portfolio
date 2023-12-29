@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Hero, Projects, Technologies, Skills, About, Footer, LogoSlider} from "./Components"
+import {Navbar, Hero, Projects, About, Footer, LogoSlider} from "./Components"
 
 function App() {
   return (

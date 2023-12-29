@@ -23,7 +23,7 @@ function Nabvar() {
           // <a className="text-[20px] text-white font-medium" key={navLink.id} href={`#${navLink.id}`} >{navLink.title}</a>
           <Link 
           key={navLink.id} 
-          className="text-[20px] text-white font-medium" 
+          className="text-[20px] text-white font-medium cursor-pointer" 
           to={navLink.id} 
           spy={true}
           smooth={true}
