@@ -4,7 +4,7 @@ import { projects } from '../constants'
 
 function Projects() {
   return (
-    <div id='projects' className="mb-[100px]" >
+    <div id='projects' className=" sm:mb-[100px]" >
       <h2 className="text-white text-[42px] font-semibold mb-8" >Projects</h2>
       <div className="flex justify-center items-start flex-wrap gap-[60px] xs:gap-[100px]" >
         {projects.map((project) => (
